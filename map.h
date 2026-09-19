@@ -1,4 +1,4 @@
 #ifndef MAP_H
 #define MAP_H
-void print_map();
+void print_map(;
 #endif

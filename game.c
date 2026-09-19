@@ -9,7 +9,7 @@ void run_game() {
     SetConsoleOutputCP(65001);
     const char *dostup_com = "Доступные команды: north, south, east, west, look, quit\n";
     printf("%s\n", dostup_com);
-    print_map();
+    print_map(;
 
     int val = 0;
 
