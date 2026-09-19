@@ -7,4 +7,4 @@ add_executable(dungeon main.c
         map.h
         map.c
         game.h
-        game.c
+        game.c)

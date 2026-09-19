@@ -11,5 +11,5 @@ void print_map() {
         "#.............#\n"
         "###############\n";
 
-    printf("%s",map;
+    printf("%s",map);
 }
