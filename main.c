@@ -1,4 +1,4 @@
-#include "game.h"
+#include "header/game.h"
 int main() {
     run_game();
     return 0;
