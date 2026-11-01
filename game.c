@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include "header/game.h"
 #include "header/check_comm.h"
 #include "header/map.h"
@@ -16,7 +18,9 @@ static Map g_map;
 Monsters g_monsters;
 
 void run_game() {
+#ifdef _WIN32
     SetConsoleOutputCP(65001);
+#endif
     game_stats_init(&g_ctx);
     init_inventory(&g_inventory);
     monsters_init(&g_monsters);
